@@ -1,14 +1,14 @@
 import random
 
-print("═════════════════════════════════════════════════════")
+print("#####################################################")
 print("     ¡Bienvenido al juego de adivinar el número!     ")
-print("═════════════════════════════════════════════════════")
+print("#####################################################")
 print("El juego consiste en adivinar un número entre 1 y 100")
-print("═════════════════════════════════════════════════════")
+print("#####################################################")
 print("Hay 2 niveles de dificultad:")
 print("1- Fácil: sin intentos limitados")
 print("2- Difícil: 7 intentos")
-print("═════════════════════════════════════════════════════")
+print("#####################################################")
 
 while True:
     try:
@@ -65,6 +65,6 @@ elif dificultad == 2:
         print(f"¡Lo siento! El número era {numero_entero}.")
         print("¡Inténtalo de nuevo!")
 
-print("══════════════════════════════════════════════════")
+print("####################")
 print("¡Gracias por jugar!")
-print("══════════════════════════════════════════════════")
+print("####################")
